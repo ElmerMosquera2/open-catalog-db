@@ -1,0 +1,16 @@
+[
+  {
+    
+    "codigo": "7702511000014",
+    "nombre": "Arroz Diana Blanco 500g",
+    "marca": "Diana",
+    "id_categoria": "abarrotes",
+    "tags": ["arroz", "grano"],
+    "contenido_neto": "500g",
+    "metadata_publica": {
+      "registro_invima": "RSIA12I29505",
+      "fuente_verificacion": "co.openfoodfacts.org"
+    }
+  },
+  
+]
