@@ -1,0 +1,21 @@
+{
+  "project": "Open Catalog db",
+  "version": "1.0.0",
+  "global_required": ["codigo", "nombre", "marca", "id_categoria"],
+  "structure": {
+    "data_path": "data/",
+    "extension_key": "categories_group"
+  },
+  "categories_manifest": [
+    {
+      "id": "lacteos-huevos",
+      "file": "data/lacteos-huevos.json",
+      "requires_extra": ["fecha_vencimiento_lote", "temperatura_conservacion"]
+    },
+    {
+      "id": "tecnologia",
+      "file": "data/tecnologia.json",
+      "requires_extra": ["voltaje", "garantia_meses"]
+    }
+  ]
+}
