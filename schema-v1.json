@@ -1,0 +1,35 @@
+{
+  "$schema": "json-schema.org",
+  "title": "Producto Universal CO v1",
+  "type": "object",
+  "required": ["codigo", "nombre", "marca", "id_categoria", "sin_datos_personales"],
+  "properties": {
+    "codigo": {
+      "type": "string",
+      "description": "Identificador único (EAN, UPC o SKU)"
+    },
+    "nombre": {
+      "type": "string",
+      "minLength": 3,
+      "description": "Nombre comercial del producto"
+    },
+    "marca": {
+      "type": "string",
+      "description": "Marca del fabricante"
+    },
+    "id_categoria": {
+      "type": "string",
+      "description": "ID definido en el archivo catalog-manifest.json"
+    },
+    "sin_datos_personales": {
+      "type": "boolean",
+      "const": true,
+      "description": "Declaración de cumplimiento Ley 1581: El registro no contiene nombres, correos o teléfonos"
+    },
+    "categories": {
+      "type": "object",
+      "description": "Atributos extra (ej. peso, talla, color)"
+    }
+  },
+  "additionalProperties": false
+}
