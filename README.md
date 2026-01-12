@@ -1,4 +1,4 @@
-# 🛒 Open Catalog Registry CO
+# 🛒 Open Catalog db
 
 Infraestructura de datos abiertos para el registro universal de productos en Colombia. El objetivo es proveer una base de datos maestra (Master Data).
 
