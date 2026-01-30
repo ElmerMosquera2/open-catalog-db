@@ -1,0 +1,62 @@
+[
+  {
+    "codigo": "7702026112345",
+    "nombre": "Café Sello Rojo Tradicional 250g",
+    "marca": "Sello Rojo",
+    "id_categoria": "bebidas",
+    "tags": ["café", "molido", "tostado"],
+    "contenido_neto": "250g",
+    "metadata_publica": {
+      "registro_invima": "RSIA30C22345",
+      "fuente_verificacion": "co.openfoodfacts.org"
+    }
+  },
+  {
+    "codigo": "7702024045678",
+    "nombre": "Jugo Hit Mango 1L",
+    "marca": "Hit",
+    "id_categoria": "bebidas",
+    "tags": ["jugo", "mango", "refrescante"],
+    "contenido_neto": "1L",
+    "metadata_publica": {
+      "registro_invima": "RSIA30J33456",
+      "fuente_verificacion": "co.openfoodfacts.org"
+    }
+  },
+  {
+    "codigo": "7702026012345",
+    "nombre": "Gaseosa Coca-Cola Original 400ml",
+    "marca": "Coca-Cola",
+    "id_categoria": "bebidas",
+    "tags": ["gaseosa", "cola", "refresco"],
+    "contenido_neto": "400ml",
+    "metadata_publica": {
+      "registro_invima": "RSIA30G44567",
+      "fuente_verificacion": "co.openfoodfacts.org"
+    }
+  },
+  {
+    "codigo": "7702026023456",
+    "nombre": "Agua Manantial 600ml",
+    "marca": "Manantial",
+    "id_categoria": "bebidas",
+    "tags": ["agua", "mineral", "hidratación"],
+    "contenido_neto": "600ml",
+    "metadata_publica": {
+      "registro_invima": "RSIA30A55678",
+      "fuente_verificacion": "co.openfoodfacts.org"
+    }
+  },
+  {
+    "codigo": "7702026034567",
+    "nombre": "Té Lipton Limón 500ml",
+    "marca": "Lipton",
+    "id_categoria": "bebidas",
+    "tags": ["té", "limón", "infusión"],
+    "contenido_neto": "500ml",
+    "metadata_publica": {
+      "registro_invima": "RSIA30T66789",
+      "fuente_verificacion": "co.openfoodfacts.org"
+    }
+  }
+]
