@@ -1,0 +1,62 @@
+[
+  {
+    "codigo": "7702511000014",
+    "nombre": "Arroz Diana Blanco 500g",
+    "marca": "Diana",
+    "id_categoria": "abarrotes",
+    "tags": ["arroz", "grano", "básico"],
+    "contenido_neto": "500g",
+    "metadata_publica": {
+      "registro_invima": "RSIA12I29505",
+      "fuente_verificacion": "co.openfoodfacts.org"
+    }
+  },
+  {
+    "codigo": "7702106012309",
+    "nombre": "Aceite Gourmet 900ml",
+    "marca": "Gourmet",
+    "id_categoria": "abarrotes",
+    "tags": ["aceite", "cocina", "vegetal"],
+    "contenido_neto": "900ml",
+    "metadata_publica": {
+      "registro_invima": "RSIA08M19823",
+      "fuente_verificacion": "co.openfoodfacts.org"
+    }
+  },
+  {
+    "codigo": "7702025110015",
+    "nombre": "Azúcar Manuelita Blanca 1000g",
+    "marca": "Manuelita",
+    "id_categoria": "abarrotes",
+    "tags": ["azúcar", "dulce", "refinado"],
+    "contenido_neto": "1000g",
+    "metadata_publica": {
+      "registro_invima": "RSIA10A34567",
+      "fuente_verificacion": "co.openfoodfacts.org"
+    }
+  },
+  {
+    "codigo": "7702027034567",
+    "nombre": "Sal Refisal Iodada 1000g",
+    "marca": "Refisal",
+    "id_categoria": "abarrotes",
+    "tags": ["sal", "iodada", "condimento"],
+    "contenido_neto": "1000g",
+    "metadata_publica": {
+      "registro_invima": "RSIA10S45678",
+      "fuente_verificacion": "co.openfoodfacts.org"
+    }
+  },
+  {
+    "codigo": "7702024145678",
+    "nombre": "Harina de Trigo 3 Castillos 500g",
+    "marca": "3 Castillos",
+    "id_categoria": "abarrotes",
+    "tags": ["harina", "trigo", "repostería"],
+    "contenido_neto": "500g",
+    "metadata_publica": {
+      "registro_invima": "RSIA10H56789",
+      "fuente_verificacion": "co.openfoodfacts.org"
+    }
+  }
+]
