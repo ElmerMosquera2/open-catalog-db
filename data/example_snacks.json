@@ -1,0 +1,62 @@
+[
+  {
+    "codigo": "7702024009987",
+    "nombre": "Papas Margarita Natural 150g",
+    "marca": "Margarita",
+    "id_categoria": "snacks",
+    "tags": ["papas", "snack", "fritas"],
+    "contenido_neto": "150g",
+    "metadata_publica": {
+      "registro_invima": "RSIA35P44567",
+      "fuente_verificacion": "co.openfoodfacts.org"
+    }
+  },
+  {
+    "codigo": "7702027012345",
+    "nombre": "Galletas Festival Vainilla 216g",
+    "marca": "Festival",
+    "id_categoria": "snacks",
+    "tags": ["galletas", "vainilla", "dulce"],
+    "contenido_neto": "216g",
+    "metadata_publica": {
+      "registro_invima": "RSIA35G55678",
+      "fuente_verificacion": "co.openfoodfacts.org"
+    }
+  },
+  {
+    "codigo": "7702027023456",
+    "nombre": "Platanitos Margarita 80g",
+    "marca": "Margarita",
+    "id_categoria": "snacks",
+    "tags": ["plátano", "chips", "salado"],
+    "contenido_neto": "80g",
+    "metadata_publica": {
+      "registro_invima": "RSIA35P66789",
+      "fuente_verificacion": "co.openfoodfacts.org"
+    }
+  },
+  {
+    "codigo": "7702027034567",
+    "nombre": "Maní Nutsy Salado 100g",
+    "marca": "Nutsy",
+    "id_categoria": "snacks",
+    "tags": ["maní", "salado", "proteína"],
+    "contenido_neto": "100g",
+    "metadata_publica": {
+      "registro_invima": "RSIA35M77890",
+      "fuente_verificacion": "co.openfoodfacts.org"
+    }
+  },
+  {
+    "codigo": "7702027045678",
+    "nombre": "Doritos Nacho 85g",
+    "marca": "Doritos",
+    "id_categoria": "snacks",
+    "tags": ["tortilla", "queso", "picante"],
+    "contenido_neto": "85g",
+    "metadata_publica": {
+      "registro_invima": "RSIA35D88901",
+      "fuente_verificacion": "co.openfoodfacts.org"
+    }
+  }
+]
