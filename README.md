@@ -1,22 +1,36 @@
 # 🛒 Open Catalog db
 
-Infraestructura de datos abiertos para el registro universal de productos en Colombia. El objetivo es proveer una base de datos maestra (Master Data).
+Infraestructura de datos abiertos para el registro universal de productos en Colombia. El objetivo es proveer una base de datos maestra (Master Data) de referencia para el ecosistema retail.
 
 ## 🚀 Arquitectura y Concepto de Datos
+
 Este repositorio sigue un enfoque NoSQL y basado en grafos, donde cada producto es un nodo y las relaciones entre ellos (ej. "compatible con", "mismo fabricante") se gestionan centralmente.
 
 ## 📂 Estructura del Repositorio
+
 Los datos están segmentados por categoría para optimizar la sincronización y la gestión de Pull Requests:
 
-- /data: Contiene archivos JSON por categoría (ej. mecatos.json, aseo-personal.json).
-- catalog-manifest.json: El índice global que define las categorías y sus atributos de extensión requeridos.
-- schema-v1.json: El contrato de datos que valida la estructura de cada producto.
-- LICENSE: Define los términos legales de uso de esta base de datos.
+- **/data**: Contiene archivos JSON por categoría (ej. `example_abarrotes.json`, `example_lacteos.json`).
+- **catalog-manifest.json**: El índice global que define las categorías y sus atributos de extensión requeridos.
+- **schema-v1.json**: El contrato de datos que valida la estructura de cada producto.
+- **LICENSE**: Define los términos legales de uso de esta base de datos.
+
+## ⚠️ Datos de Ejemplo
+
+**IMPORTANTE**: Los archivos con prefijo `example_` (como `example_abarrotes.json`, `example_lacteos.json`, etc.) contienen **datos de prueba generados artificialmente** con propósitos de demostración y desarrollo. Estos datos no representan productos reales y tienen las siguientes características:
+
+- 📊 **Propósito**: Facilitar pruebas de integración, desarrollo de interfaces y validación del esquema de datos.
+- 🎯 **Uso**: Ejemplos educativos y desarrollo de software.
+- ⚠️ **Limitaciones**:
+  - Códigos de barras ficticios (inician con 770 pero no corresponden a productos reales).
+  - Marcas y nombres de productos son referenciales.
+  - Registros INVIMA son generados aleatoriamente.
+  - No deben usarse para transacciones comerciales reales.
 
 ## 📝 Estándar de Solicitud de Producto
 
+Los colaboradores deben seguir la estructura definida en `schema-v1.json`. El objeto base del producto se enfoca en la identidad y la clasificación:
 
-Los colaboradores deben seguir la estructura definida en schema-v1.json. El objeto base del producto se enfoca en la identidad y la clasificación:
 ```json
 {
   "codigo": "string (EAN-13, UPC o SKU)",
@@ -28,6 +42,7 @@ Los colaboradores deben seguir la estructura definida en schema-v1.json. El obje
   }
 }
 ```
+
 ## Sistema de Extensión de Atributos
 Utilizamos un sistema de extensión condicional. Dependiendo su categoria, se requieren campos extra específicos que se agrupan en el objeto categories. Consulta catalog-manifest.json para ver qué campos extra son obligatorios para cada categoría.
 
