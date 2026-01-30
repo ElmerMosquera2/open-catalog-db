@@ -1,0 +1,62 @@
+[
+  {
+    "codigo": "7702025142329",
+    "nombre": "Leche Alpina Entera 1L",
+    "marca": "Alpina",
+    "id_categoria": "lácteos",
+    "tags": ["leche", "entera", "calcio"],
+    "contenido_neto": "1L",
+    "metadata_publica": {
+      "registro_invima": "RSIA15L33941",
+      "fuente_verificacion": "co.openfoodfacts.org"
+    }
+  },
+  {
+    "codigo": "7702025112316",
+    "nombre": "Yogurt Alpina Fresa 150g",
+    "marca": "Alpina",
+    "id_categoria": "lácteos",
+    "tags": ["yogurt", "fresa", "probiótico"],
+    "contenido_neto": "150g",
+    "metadata_publica": {
+      "registro_invima": "RSIA15Y44892",
+      "fuente_verificacion": "co.openfoodfacts.org"
+    }
+  },
+  {
+    "codigo": "7702024067890",
+    "nombre": "Mantequilla Alpina con Sal 250g",
+    "marca": "Alpina",
+    "id_categoria": "lácteos",
+    "tags": ["mantequilla", "salada", "grasa"],
+    "contenido_neto": "250g",
+    "metadata_publica": {
+      "registro_invima": "RSIA15M21234",
+      "fuente_verificacion": "co.openfoodfacts.org"
+    }
+  },
+  {
+    "codigo": "7702024078901",
+    "nombre": "Queso Alpina Campesino 200g",
+    "marca": "Alpina",
+    "id_categoria": "lácteos",
+    "tags": ["queso", "campesino", "proteína"],
+    "contenido_neto": "200g",
+    "metadata_publica": {
+      "registro_invima": "RSIA15Q32345",
+      "fuente_verificacion": "co.openfoodfacts.org"
+    }
+  },
+  {
+    "codigo": "7702025189012",
+    "nombre": "Kumis Alpina Original 1L",
+    "marca": "Alpina",
+    "id_categoria": "lácteos",
+    "tags": ["kumis", "fermentado", "probiótico"],
+    "contenido_neto": "1L",
+    "metadata_publica": {
+      "registro_invima": "RSIA15K43456",
+      "fuente_verificacion": "co.openfoodfacts.org"
+    }
+  }
+]
